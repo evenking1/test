@@ -2,6 +2,7 @@
   name:  nginx
   version:  1.0.0
   description:  nginx image
+  port: 80
   uuid: #
   minimum_rancher_version: #
   questions: #
