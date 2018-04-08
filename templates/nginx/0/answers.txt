@@ -1,8 +1,0 @@
-public_port=80
-mariadb_root_password=mariadb_my_root
-mariadb_user=wordpress_user
-mariadb_user_password=wordpress_password
-mariadb_database_name=bitnami_wordpress
-wordpress_username=admin
-wordpress_password=bitnami
-volume_driver=local
