@@ -1,6 +1,6 @@
-name:  nginx
+name:  wordpress
 description: |
-   nginx image
+   wordpress image
 version:  1.0.0
 category:  WEB
 maintainer:  fin4nc
