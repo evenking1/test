@@ -1,8 +1,8 @@
-name:  wordpress_test
+name:  bitbucket_t
 description: |
-   wordpress_test name
+   bitbucket_t name
 version:  1.0.0
 category:  WEB
 maintainer:  fin4nc
-license:  Apache 2
+license:  xxx
 projectURL: https://github.com/kdjflw/test
