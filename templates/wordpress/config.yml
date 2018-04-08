@@ -1,8 +1,0 @@
-name:  wordpress
-description: |
-   wordpress image
-version:  1.0.0
-category:  WEB
-maintainer:  fin4nc
-license:  Apache 2
-projectURL: https://github.com/kdjflw/test
