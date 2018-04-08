@@ -1,6 +1,6 @@
-name:  nginx
+name:  wordpress_test
 description: |
-   nginx image
+   wordpress_test name
 version:  1.0.0
 category:  WEB
 maintainer:  fin4nc
