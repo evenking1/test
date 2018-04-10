@@ -1,0 +1,5 @@
+.catalog:
+  name: "Struts2"
+  version: "v0.0.1"
+  description: "Struts-vul"
+  uuid: 1
