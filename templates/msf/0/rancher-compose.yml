@@ -1,0 +1,5 @@
+.catalog:
+  name: "msf"
+  version: "v1"
+  description: "包括nmap、sqlmap、struts-scan、msf等"
+  uuid: 1
