@@ -1,8 +1,0 @@
-name:  msf
-description: |
-   包括nmap、sqlmap、struts-scan、msf等
-version:  1.0.0
-category:  WEB
-maintainer:  gjpt
-license:  xxx
-projectURL: https://github.com/kdjflw/test

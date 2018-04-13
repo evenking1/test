@@ -1,4 +1,0 @@
-version: '2'
-services:
- struts2:
-   image: gjpt1/msf:v4
