@@ -1,6 +1,0 @@
-version: '2'
-services:
- struts2:
-   image: gjpt1/redis:v1
-   ports:
-    - "6379:6379"
