@@ -1,6 +1,6 @@
-name:  joomla
+name:  wordpress
 description: |
-   joomla:3.7.0
+   wordpress:3.7.0
 version:  1.0.0
 category:  WEB
 maintainer:  gjpt

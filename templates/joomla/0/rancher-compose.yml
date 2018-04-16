@@ -1,13 +1,13 @@
 version: '2'
 catalog:
-  name: "joomla"
+  name: "wordpress"
   version: "v0.2-gjpt1"
   description: "Blog tool, publishing platform and CMS based on gjpt1 images"
-  uuid: joomla-1
+  uuid: wordpress-1
   minimum_rancher_version: v0.51.0
   questions:
     - variable: public_port
-      description: "public port to access the joomla site"
+      description: "public port to access the wordpress site"
       label: "Public Port"
       required: true
       default: "80"
@@ -22,29 +22,29 @@ catalog:
       description: "mysql database user, created on first run"
       label: "mysql Database User"
       required: true
-      default: "joomla_user"
+      default: "wordpress_user"
       type: "string"
     - variable: mysql_user_password
       description: "mysql database user password, set on first run"
       label: "mysql Database User Password"
       required: true
-      default: "joomla_password"
+      default: "wordpress_password"
       type: "string"
     - variable: mysql_database_name
-      description: "joomla database name"
-      label: "joomla database name"
+      description: "wordpress database name"
+      label: "wordpress database name"
       required: true
-      default: "gjpt1_joomla"
+      default: "gjpt1_wordpress"
       type: "string"
-    - variable: joomla_username
-      description: "joomla application username"
-      label: "joomla application username"
+    - variable: wordpress_username
+      description: "wordpress application username"
+      label: "wordpress application username"
       required: true
       default: "admin"
       type: "string"
-    - variable: joomla_password
-      description: "joomla application password"
-      label: "joomla application password"
+    - variable: wordpress_password
+      description: "wordpress application password"
+      label: "wordpress application password"
       required: true
       default: "gjpt1"
       type: "string"

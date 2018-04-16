@@ -1,28 +1,25 @@
-version: '2'
+version: "3"
 services:
-  mysql:
-      image: 'gjpt1/mysql'
-      volumes:
-        - 'mysql_data:/gjpt1'
-      environment:
-        - MYSQL_ROOT_PASSWORD=${mysql_root_password}
-        - MYSQL_USER=${mysql_user}
-        - MYSQL_PASSWORD=${mysql_user_password}
-        - MYSQL_DATABASE=${mysql_database_name}
-  joomla:
-      image: 'gjpt1/joomla:4'
-      volumes:
-        - 'joomla_data:/gjpt1'
-      depends_on:
-        - mysql
-      environment:
-        - JOOMLA_DATABASE_NAME=${mysql_database_name}
-        - JOOMLA_DATABASE_USER=${mysql_user} 
-        - JOOMLA_DATABASE_PASSWORD=${mysql_user_password}       
-        - JOOMLA_USERNAME=${joomla_username}
-        - JOOMLA_PASSWORD=${joomla_password}
+   db:
+     image: mysql:5.7
+     volumes:
+       - db_data:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+   wordpress:
+     depends_on:
+       - db
+     image: wordpress:latest
+     ports:
+       - "8000:80"
+     restart: always
+     environment:
+       WORDPRESS_DB_HOST: db:3306
+       WORDPRESS_DB_USER: wordpress
+       WORDPRESS_DB_PASSWORD: wordpress
 volumes:
-  mysql_data:
-    driver: ${volume_driver}
-  joomla_data:
-    driver: ${volume_driver}
+    db_data:
