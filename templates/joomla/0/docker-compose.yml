@@ -1,0 +1,28 @@
+version: '2'
+services:
+  mysql:
+      image: 'gjpt1/mysql'
+      volumes:
+        - 'mysql_data:/gjpt1'
+      environment:
+        - MYSQL_ROOT_PASSWORD=${mysql_root_password}
+        - MYSQL_USER=${mysql_user}
+        - MYSQL_PASSWORD=${mysql_user_password}
+        - MYSQL_DATABASE=${mysql_database_name}
+  joomla:
+      image: 'gjpt1/joomla:4'
+      volumes:
+        - 'joomla_data:/gjpt1'
+      depends_on:
+        - mysql
+      environment:
+        - JOOMLA_DATABASE_NAME=${mysql_database_name}
+        - JOOMLA_DATABASE_USER=${mysql_user} 
+        - JOOMLA_DATABASE_PASSWORD=${mysql_user_password}       
+        - JOOMLA_USERNAME=${joomla_username}
+        - JOOMLA_PASSWORD=${joomla_password}
+volumes:
+  mysql_data:
+    driver: ${volume_driver}
+  joomla_data:
+    driver: ${volume_driver}

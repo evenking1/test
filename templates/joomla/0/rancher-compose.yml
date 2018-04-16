@@ -1,0 +1,61 @@
+version: '2'
+catalog:
+  name: "joomla"
+  version: "v0.2-gjpt1"
+  description: "Blog tool, publishing platform and CMS based on gjpt1 images"
+  uuid: joomla-1
+  minimum_rancher_version: v0.51.0
+  questions:
+    - variable: public_port
+      description: "public port to access the joomla site"
+      label: "Public Port"
+      required: true
+      default: "80"
+      type: "int"
+    - variable: mysql_root_password
+      description: "mysql root password, set on first run"
+      label: "mysql Root Password"
+      required: true
+      default: "mysql_my_root"
+      type: "string"
+    - variable: mysql_user
+      description: "mysql database user, created on first run"
+      label: "mysql Database User"
+      required: true
+      default: "joomla_user"
+      type: "string"
+    - variable: mysql_user_password
+      description: "mysql database user password, set on first run"
+      label: "mysql Database User Password"
+      required: true
+      default: "joomla_password"
+      type: "string"
+    - variable: mysql_database_name
+      description: "joomla database name"
+      label: "joomla database name"
+      required: true
+      default: "gjpt1_joomla"
+      type: "string"
+    - variable: joomla_username
+      description: "joomla application username"
+      label: "joomla application username"
+      required: true
+      default: "admin"
+      type: "string"
+    - variable: joomla_password
+      description: "joomla application password"
+      label: "joomla application password"
+      required: true
+      default: "gjpt1"
+      type: "string"
+    - variable: volume_driver
+      description: "Volume driver to use with this service"
+      label: "Volume driver"
+      required: true
+      default: "local"
+      type: enum
+      options:
+        - local
+        - rancher-nfs
+        - rancher-efs
+        - rancher-ebs
