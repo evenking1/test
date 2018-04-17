@@ -1,0 +1,5 @@
+.catalog:
+  name: "Mongodb"
+  version: "Mongodb"
+  description: "漏洞验证地址为:http://localhost:8080/showcase"
+  uuid: 1
