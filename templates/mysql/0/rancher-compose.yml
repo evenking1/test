@@ -1,0 +1,5 @@
+.catalog:
+  name: "redis"
+  version: "5"
+  description: "mysql:5"
+  uuid: 1
