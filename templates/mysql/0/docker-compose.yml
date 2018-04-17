@@ -1,8 +1,0 @@
-version: '2'
-services:
- struts2:
-   image: gjpt1/mysql:5
-   ports:
-    - "3306:3306"
-   environment:
-   MYSQL_RANDOM_ROOT_PASSWORD:root
