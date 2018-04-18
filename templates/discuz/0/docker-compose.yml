@@ -1,0 +1,14 @@
+version: '2'
+services:
+  discuz:
+    image: gjpt1/dz_x3.4:v1
+    depends_on:
+      - db
+    ports:
+      - "80:80"
+  db:
+    image: mysql:5
+    restart: always
+    environment: 
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: discuz
