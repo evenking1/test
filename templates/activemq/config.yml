@@ -1,6 +1,6 @@
-name:  avtivemq
+name:  activemq
 description: |
-   CVE-2015-5254 ActiveMQ 反序列化漏洞
+   ActiveMQ
 version:  1.0.0
 category:  WEB
 maintainer:  gjpt
