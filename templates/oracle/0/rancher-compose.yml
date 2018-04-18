@@ -1,7 +1,7 @@
 .catalog:
   name: "oracle"
   version: "11g"
-  description: "oracle-xe-11g"
+  description: "oracle-xe-11g///https://github.com/MaksymBilenko/docker-oracle-12c"
   uuid: 1
   questions:
     - variable: port
