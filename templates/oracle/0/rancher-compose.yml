@@ -1,0 +1,21 @@
+.catalog:
+  name: "oracle"
+  version: "11g"
+  description: "oracle-xe-11g"
+  uuid: 1
+  questions:
+    - variable: port
+      description: "public port to access the site"
+      label: "port"
+      required: true
+      default: 8080
+      type: "int"
+    - variable: oracle_port
+      description: "oracle_port"
+      label: "oracle_port"
+      required: true
+      default: 1521
+      type: "int"
+
+
+    

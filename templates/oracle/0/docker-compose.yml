@@ -1,0 +1,7 @@
+version: '2'
+services:
+  discuz:
+    image: gjpt1/oracle-xe-11g:v1
+    ports:
+    - "${port}:8080"
+    - "${oracle_port}:1521"
