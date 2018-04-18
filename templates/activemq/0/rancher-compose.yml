@@ -1,0 +1,5 @@
+.catalog:
+  name: "activemq"
+  version: "5.11.1"
+  description: "CVE-2015-5254 ActiveMQ 反序列化漏洞"
+  uuid: 1

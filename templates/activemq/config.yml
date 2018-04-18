@@ -1,6 +1,6 @@
-name:  discuz
+name:  avtivemq
 description: |
-   Discuz!X ≤3.4 任意文件删除漏洞
+   CVE-2015-5254 ActiveMQ 反序列化漏洞
 version:  1.0.0
 category:  WEB
 maintainer:  gjpt
