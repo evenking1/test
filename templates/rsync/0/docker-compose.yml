@@ -1,6 +1,6 @@
 version: '2'
 services:
-   rsync:
+ rsync:
    image: gjpt1/rsync:3.1.2
    ports:
-    - "${PORT}:873"
+    - "873:873"
