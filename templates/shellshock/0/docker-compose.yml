@@ -3,4 +3,4 @@ services:
  web:
    image: gjpt1/shellshock:v1
    ports:
-    - "${port}:80"
+    - "999:80"

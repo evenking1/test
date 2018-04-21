@@ -1,6 +1,6 @@
-name:  shellshock
+name:  Shellshock
 description: |
-   shelshock
+   Shelshock
 version:  1.0.0
 category:  WEB
 maintainer:  gjpt
