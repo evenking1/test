@@ -1,0 +1,5 @@
+.catalog:
+  name: "gjpt1/weblogic:CVE-2018-2628"
+  version: "gjpt1/weblogic:CVE-2018-2628"
+  description: "gjpt1/weblogic:CVE-2018-2628"
+  uuid: 1
