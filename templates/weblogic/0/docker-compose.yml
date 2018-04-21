@@ -1,6 +1,6 @@
 version: '2'
 services:
-  discuz:
+ weblogic:
     image: gjpt1/weblogic:CVE-2018-2628
     ports:
     - "${PORT}:7001"
