@@ -1,6 +1,6 @@
 version: '2'
 services:
  shellshock:
-   image: gjpt1/shellshock:v1
+   image: gjpt1/bash_shellshock:v1
    ports:
     - "${PORT}:80"
