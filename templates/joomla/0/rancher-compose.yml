@@ -10,6 +10,12 @@
     description: "Which port should listen on?"
     default: 80
     required: true
+  - variable: "DB_PORT"
+    type: "int"
+    label: "DB_PORT Number"
+    description: "db_port_number"
+    default: 3306
+    required: true
   - variable: "JOOMLA_DB_USER"
     type: "string"
     label: "USER_NAME"
