@@ -1,0 +1,24 @@
+.catalog:
+  name: "glassfish"
+  version: "gjpt1/glassfish:SSV-90437"
+  description: "gjpt1/glassfish:SSV-90437"
+  uuid: 1
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 8080
+    required: true
+  - variable: "PORT_ADMIN"
+    type: "int"
+    label: "Port_Admin Number"
+    description: "Which admin port should listen on?"
+    default: 4848
+    required: true
+  - variable: "PASSWORD"
+    type: "string"
+    label: "Admin_Password"
+    description: "glassfish super admin password"
+    default: "admin"
+    required: true
