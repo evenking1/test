@@ -3,7 +3,7 @@ services:
  web:
    image: gjpt1/joomla:CVE-2017-8917
    links:
-    - db:db
+    - db:mysql
    environment: 
     - JOOMLA_DB_HOST= mysql:3306
     - JOOMLA_DB_USER= ${JOOMLA_DB_USER}
