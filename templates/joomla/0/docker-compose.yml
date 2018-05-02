@@ -5,10 +5,10 @@ services:
    links:
     - db:mysql
    environment: 
-    - JOOMLA_DB_HOST=mysql:3306
-    - JOOMLA_DB_USER=${JOOMLA_DB_USER}
-    - JOOMLA_DB_PASSWORD=${JOOMLA_DB_PASSWORD}
-    - JOOMLA_DB_NAME=joomla
+    - JOOMLA_DB_HOST= mysql:3306
+    - JOOMLA_DB_USER= ${JOOMLA_DB_USER}
+    - JOOMLA_DB_PASSWORD= ${JOOMLA_DB_PASSWORD}
+    - JOOMLA_DB_NAME= joomla
    ports:
     - "${PORT}:80"
  mysql:
