@@ -3,7 +3,7 @@ services:
  glassfish:
    image: gjpt1/glassfish:SSV-90437
    volumes:
-    - ./www:/var/www/html
+    - www:/var/www/html
     - ./conf:/etc/nginx
    ports:
     - "${PORT}:8080"
