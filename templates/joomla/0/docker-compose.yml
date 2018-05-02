@@ -2,8 +2,8 @@ version: '2'
 services:
  web:
    image: gjpt1/joomla:CVE-2017-8917
-   depends_on:
-    - mysql
+   links:
+    - db:db
    environment: 
     - JOOMLA_DB_HOST= mysql:3306
     - JOOMLA_DB_USER= ${JOOMLA_DB_USER}
