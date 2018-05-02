@@ -1,0 +1,30 @@
+.catalog:
+  name: "joomla"
+  version: "gjpt1/joomla:CVE-2015-8562"
+  description: "gjpt1/joomla:CVE-2015-8562"
+  uuid: 1
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 80
+    required: true
+  - variable: "JOOMLA_DB_USER"
+    type: "string"
+    label: "USER_NAME"
+    description: "joomla_db_username"
+    default: root
+    required: true
+  - variable: "JOOMLA_DB_PASSWORD"
+    type: "string"
+    label: "USER_STRING"
+    description: "joomla_db_password"
+    default: root
+    required: true
+  - variable: "PASSWORD"
+    type: "string"
+    label: "USER_STRING"
+    description: "joomla_password"
+    default: root
+    required: true
