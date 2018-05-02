@@ -1,0 +1,6 @@
+version: '2'
+services:
+ weblogic:
+    image: gjpt1/weblogic:CVE-2017-10271
+    ports:
+    - "${PORT}:7001"

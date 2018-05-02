@@ -1,0 +1,12 @@
+.catalog:
+  name: "weblogic"
+  version: "gjpt1/weblogic:CVE-2017-10271"
+  description: "gjpt1/weblogic:CVE-2017-10271"
+  uuid: 1
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 7001
+    required: true
