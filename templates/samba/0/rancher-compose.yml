@@ -1,0 +1,12 @@
+.catalog:
+  name: "samba"
+  version: "gjpt1/samba:4.6.3"
+  description: "gjpt1/samba:4.6.3"
+  uuid: 1
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 443
+    required: true
