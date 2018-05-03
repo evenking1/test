@@ -1,0 +1,18 @@
+.catalog:
+  name: "jboss"
+  version: "gjpt1/jboss:JMXInvokerServlet"
+  description: "gjpt1/jboss:JMXInvokerServlet"
+  uuid: 1
+  questions:
+  - variable: "PORT1"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 9990
+    required: true
+  - variable: "PORT2"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 8081
+    required: true
