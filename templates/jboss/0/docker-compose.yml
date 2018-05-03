@@ -1,0 +1,7 @@
+version: '2'
+services:
+  jboss:
+    image: gjpt1/jboss:CVE-2017-12149
+    ports:
+      - "${PORT1}:9990"
+      - "${PORT2}:8080"
