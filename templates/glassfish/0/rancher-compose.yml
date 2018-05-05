@@ -1,7 +1,7 @@
 .catalog:
   name: "glassfish"
-  version: "gjpt1/glassfish:SSV-90437"
-  description: "gjpt1/glassfish:SSV-90437"
+  version: "glassfish:SSV-90437"
+  description: "glassfish:SSV-90437"
   uuid: 1
   questions:
   - variable: "PORT"

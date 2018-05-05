@@ -1,7 +1,7 @@
 .catalog:
   name: "weblogic"
-  version: "gjpt1/weblogic:CVE-2018-2628"
-  description: "gjpt1/weblogic:CVE-2018-2628"
+  version: "CVE-2018-2628"
+  description: "CVE-2018-2628"
   uuid: 1
   questions:
   - variable: "PORT"

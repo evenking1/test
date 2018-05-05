@@ -1,7 +1,7 @@
 .catalog:
   name: "jboss"
-  version: "gjpt1/jboss:CVE-2017-12149"
-  description: "gjpt1/jboss:CVE-2017-12149"
+  version: "CVE-2017-12149"
+  description: "CVE-2017-12149"
   uuid: 1
   questions:
   - variable: "PORT1"

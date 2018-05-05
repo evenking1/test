@@ -1,7 +1,7 @@
 .catalog:
   name: "jboss"
-  version: "gjpt1/jboss:JMXInvokerServlet"
-  description: "gjpt1/jboss:JMXInvokerServlet"
+  version: "JMXInvokerServlet"
+  description: "JMXInvokerServlet"
   uuid: 1
   questions:
   - variable: "PORT1"
