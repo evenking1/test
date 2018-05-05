@@ -1,6 +1,6 @@
 .catalog:
   name: "memcache"
-  version: "cve-2016-8705"
+  version: "cve-2016-8706"
   description: "https://yq.aliyun.com/articles/63022"
   uuid: 1
   questions:
