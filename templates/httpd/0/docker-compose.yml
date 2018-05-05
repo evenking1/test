@@ -1,0 +1,7 @@
+version: '2'
+services:
+ apache:
+   image: gjpt1/httpd:CVE-2017-15715
+   tty: true
+   ports:
+    - "${PORT}:80"

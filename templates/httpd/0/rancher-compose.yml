@@ -1,0 +1,12 @@
+.catalog:
+  name: "httpd"
+  version: "CVE-2017-15715"
+  description: "CVE-2017-15715"
+  uuid: 1
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 81
+    required: true
