@@ -1,12 +1,12 @@
 .catalog:
-  name: "httpd"
-  version: "CVE-2017-15715"
-  description: "https://www.leavesongs.com/PENETRATION/apache-cve-2017-15715-vulnerability.html"
+  name: "memcache"
+  version: "cve-2016-8704"
+  description: "https://yq.aliyun.com/articles/63022"
   uuid: 1
   questions:
   - variable: "PORT"
     type: "int"
     label: "Port Number"
     description: "Which port should listen on?"
-    default: 81
+    default: 11211
     required: true
