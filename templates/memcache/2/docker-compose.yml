@@ -1,0 +1,7 @@
+version: '2'
+services:
+ apache:
+   image: gjpt1/memcached:cve-2016-8704
+   tty: true
+   ports:
+    - "${PORT}:11211"
