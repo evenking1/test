@@ -7,7 +7,7 @@ services:
    ports:
     - "${PORT}:80"
  mysql:
-   image: gjpt1/mysql:5-thinkphp
+   image: gjpt1/mysql:5
    environment: 
     - MYSQL_ROOT_PASSWORD=root
     - MYSQL_DATABASE=cat
