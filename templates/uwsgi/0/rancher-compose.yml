@@ -1,0 +1,12 @@
+.catalog:
+  name: "uwsgi"
+  version: "uwsgi:2.0.16"
+  description: "111"
+  uuid: 1
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 8081
+    required: true

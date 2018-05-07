@@ -1,0 +1,7 @@
+version: '2'
+services:
+ apache:
+   image: gjpt1/uwsgi-php:2.0.16
+   tty: true
+   ports:
+    - "${PORT}:8080"
