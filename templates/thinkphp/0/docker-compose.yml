@@ -1,0 +1,13 @@
+version: '2'
+services:
+ web:
+   image: gjpt1/thinkphp:5.0.9
+   depends_on:
+    - mysql
+   ports:
+    - "${PORT}:80"
+ mysql:
+   image: mysql:5
+   environment: 
+    - MYSQL_ROOT_PASSWORD=root
+    - MYSQL_DATABASE=cat

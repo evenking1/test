@@ -1,12 +1,12 @@
 .catalog:
-  name: "uwsgi"
-  version: "uwsgi:2.0.16/CVE-2018-7490"
-  description: "CVE-2018-7490"
+  name: "thinkphp"
+  version: "thinkphp"
+  description: "信息泄露漏洞&注入"
   uuid: 1
   questions:
   - variable: "PORT"
     type: "int"
     label: "Port Number"
     description: "Which port should listen on?"
-    default: 8081
+    default: 80
     required: true
