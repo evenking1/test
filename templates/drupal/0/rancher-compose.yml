@@ -1,7 +1,7 @@
 .catalog:
   name: "drupal"
   version: "drupal/CVE-2018-7600"
-  description: "CVE-2018-7600"
+  description: "CVE-2018-7600/https://github.com/vulhub/vulhub/tree/master/drupal/CVE-2018-7600"
   uuid: 1
   questions:
   - variable: "PORT"

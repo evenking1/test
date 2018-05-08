@@ -1,0 +1,12 @@
+.catalog:
+  name: "dvwa"
+  version: "dvwa_v1.9"
+  description: "dvwa_v1.9"
+  uuid: 1
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 80
+    required: true
