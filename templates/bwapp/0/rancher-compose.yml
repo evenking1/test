@@ -1,7 +1,7 @@
 .catalog:
   name: "bwapp"
   version: "bwapp"
-  description: "https://github.com/MyKings/docker-vulnerability-environment/tree/master/bWAPP"
+  description: "web用户名密码:bee/bug。mysql帐号密码:root/bug.https://github.com/MyKings/docker-vulnerability-environment/tree/master/bWAPP"
   uuid: 1
   questions:
   - variable: "PORT"
