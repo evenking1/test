@@ -1,0 +1,12 @@
+.catalog:
+  name: "xssed"
+  version: "xssed"
+  description: "xssed////https://github.com/MyKings/docker-vulnerability-environment/tree/master/DVWA"
+  uuid: 1
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 80
+    required: true
