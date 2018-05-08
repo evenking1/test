@@ -1,7 +1,7 @@
 .catalog:
   name: "xssed"
   version: "xssed"
-  description: "xssed////https://github.com/MyKings/docker-vulnerability-environment/tree/master/DVWA"
+  description: "xssed////https://github.com/MyKings/docker-vulnerability-environment/tree/master/xssed"
   uuid: 1
   questions:
   - variable: "PORT"

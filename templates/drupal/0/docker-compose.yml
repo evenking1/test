@@ -1,6 +1,0 @@
-version: '2'
-services:
- web:
-   image: gjpt1/drupal:8.5.0
-   ports:
-    - "${PORT}:80"
