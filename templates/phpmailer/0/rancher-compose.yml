@@ -1,0 +1,12 @@
+.catalog:
+  name: "phpmailer"
+  version: "phpmailer/CVE-2017-5223"
+  description: "CVE-2017-5223"
+  uuid: 1
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 8081
+    required: true

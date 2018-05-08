@@ -1,0 +1,6 @@
+version: '2'
+services:
+ apache:
+   image: gjpt1/phpmailer:cve-2017-5223
+   ports:
+    - "${PORT}:80"
