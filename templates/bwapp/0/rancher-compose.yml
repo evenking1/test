@@ -1,7 +1,7 @@
 .catalog:
-  name: "dvwa"
-  version: "dvwa_v1.9"
-  description: "dvwa_v1.9_用户名密码:admin/password////https://github.com/MyKings/docker-vulnerability-environment/tree/master/DVWA"
+  name: "bwapp"
+  version: "bwapp"
+  description: "https://github.com/MyKings/docker-vulnerability-environment/tree/master/bWAPP"
   uuid: 1
   questions:
   - variable: "PORT"
