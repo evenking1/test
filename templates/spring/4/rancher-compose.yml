@@ -1,0 +1,12 @@
+.catalog:
+  name: "spring"
+  version: "spring:CVE-2016-4977"
+  description: "https://github.com/vulhub/vulhub/tree/master/spring/CVE-2016-4977"
+  uuid: 1
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 8081
+    required: true
