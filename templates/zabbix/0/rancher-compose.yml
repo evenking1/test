@@ -1,0 +1,12 @@
+.catalog:
+  name: "zabbix"
+  version: "zabbix:2.2x/3.0.x"
+  description: "https://github.com/Medicean/VulApps/tree/master/z/zabbix/2"
+  uuid: 1
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 80
+    required: true
