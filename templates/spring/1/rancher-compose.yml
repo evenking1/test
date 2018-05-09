@@ -1,7 +1,7 @@
 .catalog:
   name: "spring"
-  version: "spring:CVE-2018-1273"
-  description: "https://github.com/Medicean/VulApps/tree/master/s/spring/2"
+  version: "spring:CVE-2017-8046"
+  description: "https://github.com/Medicean/VulApps/tree/master/s/spring/1"
   uuid: 1
   questions:
   - variable: "PORT"
