@@ -1,0 +1,7 @@
+version: '2'
+services:
+ apache:
+   image: gjpt1/spring:CVE-2018-1273
+   tty: true
+   ports:
+    - "${PORT}:8080"
