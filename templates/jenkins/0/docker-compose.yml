@@ -1,0 +1,7 @@
+version: '2'
+services:
+ apache:
+   image: gjpt1/jenkins:CVE-2015-8103
+   tty: true
+   ports:
+    - "${PORT}:8080"
