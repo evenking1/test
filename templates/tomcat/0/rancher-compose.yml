@@ -1,0 +1,12 @@
+.catalog:
+  name: "tomcat"
+  version: "CVE-2017-12615"
+  description: "https://github.com/Medicean/VulApps/tree/master/t/tomcat/1"
+  uuid: 1
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 8081
+    required: true
