@@ -1,7 +1,7 @@
 .catalog:
   name: "thinkphp"
   version: "thinkphp_sql_injection"
-  description: "CVE-2018-7490"
+  description: "https://github.com/Medicean/VulApps/tree/master/t/thinkphp/1"
   uuid: 1
   questions:
   - variable: "PORT"
