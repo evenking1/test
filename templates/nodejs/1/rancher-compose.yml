@@ -1,6 +1,6 @@
 .catalog:
   name: "nodejs"
-  version: "CVE-2017-5941"
+  version: "CVE-2017-5941____1"
   description: "https://github.com/Medicean/VulApps/tree/master/n/nodejs/1"
   uuid: 1
   questions:
