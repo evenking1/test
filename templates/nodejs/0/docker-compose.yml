@@ -1,7 +1,0 @@
-version: '2'
-services:
- apache:
-   image: gjpt1/nodejs:CVE-2017-5941
-   tty: true
-   ports:
-    - "${PORT}:80"
