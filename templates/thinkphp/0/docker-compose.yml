@@ -4,4 +4,4 @@ services:
    image: gjpt1/thinkphp:sql_injection
    tty: true
    ports:
-    - "${PORT}:8080"
+    - "${PORT}:80"
