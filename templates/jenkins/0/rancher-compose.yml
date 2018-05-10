@@ -10,3 +10,9 @@
     description: "Which port should listen on?"
     default: 8081
     required: true
+  - variable: "PORT1"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 50000
+    required: true

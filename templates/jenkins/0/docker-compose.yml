@@ -5,3 +5,4 @@ services:
    tty: true
    ports:
     - "${PORT}:8080"
+    - "${PORT1}:50000"
