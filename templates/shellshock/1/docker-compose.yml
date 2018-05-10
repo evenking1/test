@@ -1,0 +1,6 @@
+version: '2'
+services:
+ shellshock:
+   image: gjpt1/bash_shellshock:CVE-2014-7169
+   ports:
+    - "${PORT}:80"
