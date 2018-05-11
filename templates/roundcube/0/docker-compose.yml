@@ -1,0 +1,7 @@
+version: '2'
+services:
+ apache:
+   image: gjpt1/roundcube:CVE-2016-9920
+   tty: true
+   ports:
+    - "${PORT}:80"
