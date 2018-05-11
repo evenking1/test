@@ -1,7 +1,7 @@
 version: '2'
 services:
  apache:
-   image: gjpt1/proftpd:cve-2015-3306
+   image: gjpt1/proftpd:cve-2015-3306_v2
    tty: true
    ports:
     - "${PORT}:21"
