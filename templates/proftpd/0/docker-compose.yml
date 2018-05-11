@@ -1,0 +1,8 @@
+version: '2'
+services:
+ apache:
+   image: gjpt1/proftpd:cve-2015-3306
+   tty: true
+   ports:
+    - "${PORT}:21"
+    - "${PORT1}:80"

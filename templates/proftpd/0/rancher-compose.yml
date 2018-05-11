@@ -1,0 +1,18 @@
+.catalog:
+  name: "proftpd"
+  version: "cve-2015-3306"
+  description: "https://github.com/t0kx/exploit-CVE-2015-3306"
+  uuid: 1
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 21
+    required: true
+  - variable: "PORT1"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should listen on?"
+    default: 80
+    required: true
