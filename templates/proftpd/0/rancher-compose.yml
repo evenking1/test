@@ -12,7 +12,7 @@
     required: true
   - variable: "PORT1"
     type: "int"
-    label: "Port Number"
+    label: "Port Number2"
     description: "Which port should listen on?"
     default: 80
     required: true

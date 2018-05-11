@@ -1,6 +1,6 @@
-name: ProFTPd
+name:  proftpd
 description: |
-   ProFTPd vul
+   proftpd vul
 version:  1.0.0
 category:  WEB
 maintainer:  gjpt
